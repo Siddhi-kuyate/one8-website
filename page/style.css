@@ -1,0 +1,23 @@
+.transparent-text-border{
+    font-family: Arial, sans-serif;
+    font-size: 150px;
+    color: transparent; 
+     padding: 100px;
+    -webkit-text-stroke: 4px white;
+    line-height: 10px; 
+    font-weight: bold;
+    text-align: center; 
+    
+    }
+
+    .bannering{
+        background-image: url(../img1/img1.2.png);
+        background-repeat: no-repeat;
+        height: 100vh;
+        background-size: cover;
+
+    }
+
+    .of{
+        margin-top: 200px;
+    } 

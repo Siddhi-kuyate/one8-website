@@ -1,0 +1,142 @@
+li:hover{
+    color: yellow;
+}
+
+            /* page1 */
+
+.page1{
+   background-image:url(./img1/bg.jpg);
+   background-size: cover;
+   height: 100vh;
+
+}
+
+
+.transparent-text-border{
+    line-height: 200px; 
+    font-family: Arial, sans-serif;
+    font-size: 100px;
+    color: transparent; 
+    -webkit-text-stroke: 2px black; 
+}
+
+.navbar-toggler{
+   color: orange;
+}
+
+
+ .ex{
+    position: absolute;
+    margin-top: -45px;
+  
+} 
+
+.of{
+
+    position: relative;
+}
+
+ /* @media (min-width:400px) and (max-width:1400px){
+        .ex{
+            font-size: 50px;
+            color:white;
+        }
+    
+} 
+
+@media (min-width:400px) and
+       (max-width:1400px){
+    .cut{
+     font-size: 10px;
+     
+  
+ }
+
+}  */
+
+
+       /* page2 */
+
+    .page2{
+
+        height: 800px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+     /* page3 */
+
+     /* .page3{
+        
+     } */
+
+     .transparent-text-border1{
+        /* width: 200px;
+        height: 200px; */
+        /* border: 2px solid #333;  */
+        /* background-color: #fff;*/
+        
+        font-family: Arial, sans-serif;
+        font-size: 150px;
+        color: transparent; 
+        -webkit-text-stroke: 3px orange; 
+    }
+
+
+    .transparent-text-border2{
+    font-family: Arial, sans-serif;
+    font-size: 150px;
+    color: transparent; 
+     padding: 100px;
+    -webkit-text-stroke: 4px black;
+    line-height: 10px; 
+    font-weight: bold;
+    text-align: center;
+    }
+
+
+     
+    @media screen and (min-width:375px) and (max-width:414px) {
+
+        .transparent-text-border2{
+            font-size: 25px;
+            margin-bottom: -100px;
+            font-weight: normal;
+            border-width: 10px;   
+        
+        }
+    }
+
+    @media screen and (min-width:375px) and (max-width:414px)  {
+
+        .transparent-text-border1{
+             
+            font-size: 50px;
+
+        }
+    }
+
+
+
+    @media screen and (min-width:375px) and (max-width:414px) {
+
+        .transparent-text-border{
+          
+            font-size: 40px;
+
+        }
+    }
+
+    @media screen and (min-width:375px) and (max-width:414px) {
+
+        .of{
+            
+            
+            font-size: 10px;
+        }
+        
+    }
+
